@@ -45,6 +45,7 @@ class Palindrome_Solution {
     	int size = 0;
     	
         while(head!=null){
+        	System.out.println(head.val);
             array[size++]= head.val;
             head = head.next;
         }
